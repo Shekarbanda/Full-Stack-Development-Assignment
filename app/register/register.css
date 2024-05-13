@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container1{
+    position: relative;
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .img1{
+      height: 46.4rem;
+      width: auto;
+      overflow: hidden;
+      z-index: -1;
+  }
+  
+  .signup_item1{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 46.4rem;
+    background-color: #071829;
+  }
+  
+  .logo1{
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+    color: white;
+  }
+  
+  .span1{
+    width: 4rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+    background-color: rgb(35, 153, 217);
+    border-radius: 10%;
+  }
+  
+  .para1{
+    color: white;
+    text-align: center;
+  }
+  
+  .signup1{
+    color: white;
+    text-align: center;
+    margin: auto auto;
+    position: relative;
+    top: 15%;
+  }
+  
+  .email1{
+    width: 60%;
+    height: 3rem;
+    background-color: transparent;
+    color: white;
+    border: 1px solid gray;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 1.1rem;
+    border-radius: 6px;
+  }
+  
+  .pass1{
+    width: 60%;
+    height: 3rem;
+    background-color: transparent;
+    border: 1px solid gray;
+    color: white;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 1.1rem;
+    border-radius: 6px;
+  }
+
+  .btn1{
+    width: 60%;
+    border: 1px solid gray;
+    height: 2.6rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    border-radius: 6px;
+
+  }
+
+  .marker:hover{
+    cursor: pointer;
+    opacity: 0.7;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .container1{
+     flex-direction: column;
+    }
+    .img1{
+      position: relative;
+      max-width: 1500px;
+      height: 23rem;
+    }
+    
+  .signup_item1{
+    position:static;
+    width: 100%;
+    height: 60%;
+    }
+  
+    .logo1{
+      position:absolute;
+      bottom: 50%;
+      left: 50%;
+      transform: translate(-50%);
+      font-size: 1.3rem;
+
+    }
+   
+    .span1{
+      
+      font-size: 1.3rem;
+    }
+    .para1{
+      position: absolute;
+      bottom: 47%;
+      font-size: 0.8rem;
+      left: 50%;
+      transform: translate(-50%);
+    }
+    .signup1{
+      font-size: 0.8rem;
+      padding-top: 1.2rem;
+    }
+    .msg1{
+      padding-top: 0.5rem;
+    }
+    .email1{
+        width: 80%;
+        height: 2rem;
+        margin-top: 4.3rem;
+      }
+      
+      .pass1{
+        width: 80%;
+        height: 2rem;
+       margin-top: 0.6rem;
+        font-size: 1.1rem;
+       
+      }
+    
+      .btn1{
+        width: 80%;
+        border: 1px solid gray;
+        height: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
+    
+      }
+
+  }
+  
+   @media screen and (max-width:294px) {
+    .logo1{
+        position:absolute;
+        bottom: 53%;
+        left: 50%;
+        transform: translate(-50%);
+        font-size: 90%;
+        width: 5rem;
+    }
+    .span1{
+        padding: 0.5rem;
+        font-size: 90%;
+      }
+    }
