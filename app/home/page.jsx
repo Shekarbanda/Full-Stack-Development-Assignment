@@ -37,6 +37,8 @@ signOut(auth).then(() => {
 }
   return (
     <>
+      <title>Home</title>
+    <link rel='icon' href='/icon.png'></link>
       <div className="main">
         <nav className="navbar">
         <div>
