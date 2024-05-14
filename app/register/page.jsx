@@ -48,6 +48,8 @@ createUserWithEmailAndPassword(auth, email, password)
 
   return (
     <>
+        <title>Register</title>
+    <link rel='icon' href='/icon.png'></link>
     <div className='container1'>
             <Image className="img1" src={"/background.jpeg"} alt='signup_image' width={720} height={738}></Image>
 
