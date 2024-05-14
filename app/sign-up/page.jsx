@@ -53,6 +53,8 @@ export default function page() {
 
   return (
     <>
+          <title>Sign Up</title>
+    <link rel='icon' href='/icon.png'></link>
         <div className='container2'>
                 <Image className="img2" src={"/background.jpeg"} alt='signup_image' width={720} height={738}></Image>
 
