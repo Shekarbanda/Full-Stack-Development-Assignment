@@ -69,7 +69,8 @@ function signin_popup(){
 
   return (
     <>
-    
+     <title>Sign in</title>
+    <link rel='icon' href='/icon.png'></link>
     <div className='container'>
             <Image className="img" src={"/background.jpeg"} alt='signup_image' width={720} height={738}></Image>
 
