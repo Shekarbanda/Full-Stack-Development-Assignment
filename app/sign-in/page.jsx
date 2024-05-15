@@ -69,7 +69,7 @@ function signin_popup(){
 
   return (
     <>
-     <title>Sign in</title>
+    <title>Sign in</title>
     <link rel='icon' href='/icon.png'></link>
     <div className='container'>
             <Image className="img" src={"/background.jpeg"} alt='signup_image' width={720} height={738}></Image>
@@ -93,11 +93,12 @@ function signin_popup(){
       
                 <button className='btn marker' type='submit'>Login</button>
                 </form>
-            </div>
+            
                   <div className='account'>
                     <p className='s_msg'>Do not have an Account?</p>
                     <Link className='link marker' href='/sign-up' style={{ textDecoration: 'none'}}>Sign up
                     </Link>
+                    </div>
                     </div>
         </div>
     </div>
