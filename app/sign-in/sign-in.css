@@ -6,13 +6,12 @@
   .container{
     position: relative;
     width: 100vw;
-    height: 100vh;
     display: flex;
     flex-direction: row;
   }
   .img{
       height: 100vh;
-      width: 50vw;
+      width: auto;
       overflow: hidden;
       z-index: -1;
       width: auto;
@@ -121,13 +120,13 @@
     width: 60%;
     border: 1px solid gray;
     height: 2.6rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
     border-radius: 6px;
 
   }
 .account{
   text-align: center;
-  margin-top: 20%;
+  margin-top: 3rem;
   
 }
   
@@ -188,29 +187,34 @@
     .signup{
       font-size: 0.8rem;
       padding-top: 0.3rem;
+      margin: 0;
+    }
+    .g_img{
+      width: 20px;
+      height: 20px;
     }
     .msg{
       padding-top: 0.5rem;
     }
     .google{
-      height: 3rem;
+      height: 2.3rem;
       width: 90%;
+      margin-top: 2%;
     }
 
-    .img_msg{
-      font-size: 1rem;
-    }
+   
 
     .email{
         width: 80%;
         height: 2rem;
-        
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
       }
     
       .pass{
         width: 80%;
         height: 2rem;
-       
+        margin-top: 0;
         font-size: 1.1rem;
       }
     
@@ -218,7 +222,7 @@
         width: 80%;
         border: 1px solid gray;
         height: 2rem;
-        margin-top: 2.5rem;
+        margin-top: 1rem;
         margin-bottom: 0.5rem;
     
       }
@@ -229,8 +233,9 @@
       }
       .account{
         text-align: center;
-        margin-top: 1rem;
+        margin-top: 5%;
         padding-bottom: 0.3rem;
+        font-size: 0.7rem;
       }
 
   }
@@ -249,10 +254,37 @@
         font-size: 90%;
       }
       .google{
-        height: 3.5rem;
+        height: 2.2rem;
         width: 90%;
       }
       .img_msg{
         font-size: 0.8rem;
       }
+      .img_msg{
+        display: none;
+      }
   }
+
+  @media screen and (max-height:600px){
+    .container{
+      height: 39rem;
+    }
+    .img{
+        height: 100%;
+        
+    }
+    
+    .signup_item{
+      
+      height: 100%;
+    }
+    
+  }
+
+  @media screen and (max-height:960px) and (min-width:1024px){
+    .img{
+      width: 50vw;
+    }
+   
+  }
+
