@@ -216,3 +216,9 @@ hr{
   display: none;
 }
 }
+
+@media screen and (max-height:430px){
+  .main{
+    height: 40rem;
+  }
+}
