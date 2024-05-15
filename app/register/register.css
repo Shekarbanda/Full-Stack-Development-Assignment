@@ -132,7 +132,8 @@
     }
     .signup1{
       font-size: 0.8rem;
-      padding-top: 1.2rem;
+      padding-top: 0.5rem;
+      margin-top: 0;
     }
     .msg1{
       padding-top: 0.5rem;
@@ -140,13 +141,13 @@
     .email1{
         width: 80%;
         height: 2rem;
-        margin-top: 4.3rem;
+        margin-top: 0.5rem;
       }
       
       .pass1{
         width: 80%;
         height: 2rem;
-       margin-top: 0.6rem;
+       margin-top: 0rem;
         font-size: 1.1rem;
        
       }
@@ -165,7 +166,7 @@
    @media screen and (max-width:294px) {
     .logo1{
         position:absolute;
-        bottom: 56%;
+        bottom: 60%;
         left: 50%;
         transform: translate(-50%);
         font-size: 90%;
@@ -175,4 +176,30 @@
         padding: 0.5rem;
         font-size: 90%;
       }
+
+      
     }
+
+    
+  @media screen and (max-height:550px){
+    .container1{
+      height: 34rem;
+    }
+    .img1{
+        height: 100%;
+        
+    }
+    
+    .signup_item1{
+      
+      height: 100%;
+    }
+    
+  }
+
+  @media screen and (max-height:960px) and (min-width:1024px){
+    .img1{
+      width: 50vw;
+    }
+   
+  }
