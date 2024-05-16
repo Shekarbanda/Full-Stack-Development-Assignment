@@ -123,20 +123,24 @@
      flex-direction: column;
     }
     .img2{
-      position: relative;
+      
       width: 100vw;
       height: 50vh;
+      
     }
     
   .signup_item2{
-    position:static;
+    position:absolute;
     width: 100vw;
-    height: 50vh;
-    top:70%
+    height: 52.5vh;
+    top:95%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: 1px solid #425568;
     }
     .logo2{
       position:absolute;
-      bottom: 55%;
+      bottom: 105%;
       left: 50%;
       transform: translate(-50%);
       font-size: 1.3rem;
@@ -147,10 +151,11 @@
     }
     .para2{
       position: absolute;
-      bottom: 54%;
+      bottom: 105%;
       font-size: 0.8rem;
       left: 50%;
       transform: translate(-50%);
+      width: 100%;
     }
     .signup2{
       font-size: 0.8rem;
@@ -187,7 +192,7 @@
   @media screen and (max-width:294px) {
     .logo2{
         position:absolute;
-        bottom: 60%;
+        bottom: 110%;
         left: 50%;
         transform: translate(-50%);
         font-size: 90%;
@@ -214,6 +219,13 @@
     }
   }
 
+  @media screen and (max-height:540px) and (max-width:480px){
+    .container2{
+    height: 18rem !important;
+    }
+    
+  }
+
   @media screen and (max-height:550px){
     .container2{
       height: 34rem;
@@ -229,6 +241,8 @@
     }
     
   }
+
+ 
 
   @media screen and (max-height:960px) and (min-width:1024px){
     .img2{
