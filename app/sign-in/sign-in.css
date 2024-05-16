@@ -23,6 +23,7 @@
     width: 50vw;
     height: 100vh;
     background-color: #071829;
+
   }
   
   .logo{
@@ -37,7 +38,7 @@
     padding: 0.5rem;
     font-size: 2rem;
     background-color: rgb(35, 153, 217);
-    border-radius: 10%;
+    border-radius: 8px;
   }
   
   .para{
@@ -73,8 +74,9 @@
 
   
   .g_img{
+    display: inline-block;
     position: relative;
-    top: 15%;
+    top: 18%;
     padding-right: 0.8rem;
     margin: auto;
   }
@@ -82,6 +84,7 @@
   .img_msg{
     font-size: 1.1rem;
     font-weight: bold;
+    margin-top: 2%;
   }
   
 
@@ -155,20 +158,23 @@
     }
 
     .img{
-      position: relative;
+
       width: 100vw;
       height: 50vh;
     }
     
   .signup_item{
-    position:static;
+    position:absolute;
     width: 100vw;
-    height: 50vh;
-    top:70%
+    height: 53.2vh;
+    top: 95%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: 1px solid #425568;
     }
     .logo{
       position:absolute;
-      bottom: 55%;
+      bottom: 110%;
       left: 50%;
       transform: translate(-50%);
       font-size: 1.3rem;
@@ -179,10 +185,11 @@
     }
     .para{
       position: absolute;
-      bottom: 52%;
+      bottom: 105%;
       font-size: 0.8rem;
       left: 50%;
       transform: translate(-50%);
+      width: 100%;
     }
     .signup{
       font-size: 0.8rem;
@@ -192,14 +199,18 @@
     .g_img{
       width: 20px;
       height: 20px;
+      margin-bottom: 1%;
+      padding-right: 3%;
+
     }
-    .msg{
-      padding-top: 0.5rem;
+    .img_msg{
+      display:inline-block;
+      margin-top: 3%;
+
     }
     .google{
-      height: 2.3rem;
+      height: 2.9rem;
       width: 90%;
-      margin-top: 2%;
     }
 
    
@@ -243,7 +254,7 @@
   @media screen and (max-width:294px) {
     .logo{
         position:absolute;
-        bottom: 57%;
+        bottom: 110%;
         left: 50%;
         transform: translate(-50%);
         font-size: 90%;
@@ -263,6 +274,22 @@
       .img_msg{
         display: none;
       }
+  }
+
+  @media screen and (max-height:600px) and (max-width:480px){
+    .container{
+      height: 22rem !important;
+    }
+    .signup_item{
+      position:absolute;
+      width: 100vw;
+      height: 52.5vh;
+      top: 95%;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      border-top: 1px solid #425568;
+      }
+
   }
 
   @media screen and (max-height:600px){
