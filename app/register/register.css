@@ -105,14 +105,18 @@
     }
     
   .signup_item1{
-    position:static;
+    position:absolute;
     width: 100vw;
-    height: 50vh;
-    }
+    height: 52vh;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top: 1px solid #425568;
+    top: 48%;
+  }
   
     .logo1{
       position:absolute;
-      bottom: 55%;
+      bottom: 105%;
       left: 50%;
       transform: translate(-50%);
       font-size: 1.3rem;
@@ -125,10 +129,11 @@
     }
     .para1{
       position: absolute;
-      bottom: 52%;
+      bottom: 105%;
       font-size: 0.8rem;
       left: 50%;
       transform: translate(-50%);
+      width: 100%;
     }
     .signup1{
       font-size: 0.8rem;
@@ -166,7 +171,7 @@
    @media screen and (max-width:294px) {
     .logo1{
         position:absolute;
-        bottom: 60%;
+        bottom: 110%;
         left: 50%;
         transform: translate(-50%);
         font-size: 90%;
